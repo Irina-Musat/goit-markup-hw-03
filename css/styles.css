@@ -21,7 +21,7 @@ h3,
 p {
     margin-block-start: 0;
     margin-block-end: 0;
-    margin: 0;
+    /* margin: 0; */
 }
 
 ul {
@@ -72,8 +72,8 @@ a {
     color: #404bbf;
 }
 
-.header-logo {
-    font-family: var(--second-font-family);
+.logo {
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.03em;
