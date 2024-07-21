@@ -5,10 +5,18 @@
     --secondary-color-navy-blue: #2e2f42;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: var(--font-family);
     color: var(--primary-color-slate);
     background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 img {
@@ -64,7 +72,7 @@ a {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--secondary-color-navy-blue);
+    color: #2e2f42;
 }
 
 .header-link:hover,
@@ -80,13 +88,13 @@ a {
     line-height: 1.17;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    margin-right: 76px; /* Proprietatea corectă */
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding: 24px 0; /* Proprietatea corectă */
 }
 
 .address {
@@ -311,4 +319,72 @@ a {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.page-title {
+    margin-top: 0;
+    /* Proprietatea corectă */
+    margin-bottom: 24px;
+    /* Proprietatea corectă */
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.333;
+    letter-spacing: 3px;
+}
+
+/* Stiluri pentru titlurile secțiunilor */
+.section-title {
+    font-size: 20px;
+    /* Adăugat proprietatea font-size */
+    color: #3f51b5;
+    /* Proprietatea color specificată anterior */
+}
+
+/* Stiluri pentru textul secțiunilor */
+.section-text {
+    color: #ff5722;
+}
+
+/* Stiluri pentru club-list */
+.club-list .title {
+    font-size: 16px;
+    /* Adăugat proprietatea font-size */
+}
+
+.club-list .link {
+    color: #ffc107;
+    font-size: 14px;
+    /* Adăugat proprietatea font-size */
+}
+
+/* Efect hover și focus pentru link-urile din club-list */
+.club-list .link:hover,
+.club-list .link:focus {
+    color: #f57f17;
+}
+
+/* Efect active pentru link-urile din club-list */
+.club-list .link:active {
+    color: #ff1744;
+}
+
+/* Stiluri pentru footer */
+.page-footer {
+    background-color: #212121;
+}
+
+/* Stiluri pentru textul din footer */
+.copyright-text {
+    color: #ffffff;
+}
+
+/* Efect hover și focus pentru link-urile din page-nav */
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #18ffff;
+}
+
+/* Efect active pentru link-urile din page-nav */
+.page-nav .link:active {
+    color: #212121;
 }
