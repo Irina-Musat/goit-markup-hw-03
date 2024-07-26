@@ -89,9 +89,9 @@ a {
 }
 
 .header-menu {
-    padding: 24px 0;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address {
@@ -113,6 +113,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color-slate);
+    padding: 24px 0;
 }
 
 .address-link:hover,
