@@ -113,7 +113,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color-slate);
-    padding: 24px 0;
 }
 
 .address-link:hover,
