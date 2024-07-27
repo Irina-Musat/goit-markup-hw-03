@@ -91,6 +91,10 @@ a {
 .header-menu {
     display: flex;
     gap: 40px;
+}
+
+.menu-item,
+.link {
     padding: 24px 0;
 }
 
